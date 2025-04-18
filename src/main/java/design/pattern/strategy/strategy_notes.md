@@ -3,7 +3,7 @@
       them what stays same 
 
      + Take the part that vary and encapsulate them, so that later
-       you can later the part that vary without affecting those
+       you can alter or extend the part that vary without affecting those
        don't
       
 2. [x] Program to an interface, not an implementation
