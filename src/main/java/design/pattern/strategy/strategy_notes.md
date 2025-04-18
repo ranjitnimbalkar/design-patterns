@@ -1,3 +1,10 @@
+# Definition
+
+**Strategy design pattern defines a family of algorithms,
+encapsulate each one, and makes them interchangeable.
+Strategy lets the algorithm vary independently of client
+that uses it.**
+
 # **Design Principle**
 1. [x] Identify the aspect of your application that vary and separate
       them what stays same 
