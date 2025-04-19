@@ -9,6 +9,14 @@ public class Mocha extends CondimentDecorator {
 		return beverage.getDescription() + ", Mocha";
 	}
 	public double getCost() {
-		return .20 + beverage.getCost();
+		double cost = beverage.getCost();
+		if (beverage.getSize() == Size.TALL) {
+			cost +=  5;
+		} else if (beverage.getSize() == Size.GRANDE) {
+			cost += 10;
+		} else if (beverage.getSize() == Size.VENTI) {
+			cost += 20;
+		}
+		return cost;
 	}
 }

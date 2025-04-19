@@ -1,4 +1,6 @@
-package design.pattern.decorator.coffee;
+package design.pattern.decorator.coffee.components;
+
+import design.pattern.decorator.coffee.Beverage;
 
 public class Decaf extends Beverage {
 	public Decaf() {

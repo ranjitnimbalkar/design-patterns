@@ -11,6 +11,7 @@ public class StarbuzzCoffee {
                 + " $" + beverage.getCost());
 
         Beverage beverage1 = new DarkRoast();
+        beverage1.setSize(Beverage.Size.VENTI);
         beverage1 = new Mocha(beverage1);
         beverage1 = new Mocha(beverage1);
         beverage1 = new Whip(beverage1);
